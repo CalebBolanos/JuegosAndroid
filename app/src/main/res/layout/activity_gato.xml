@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="caleb.login.ActivityGato">
+
+
+    <Button
+        android:id="@+id/casilla1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        android:onClick="dibujar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/casilla2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:onClick="dibujar"
+        app:layout_constraintStart_toEndOf="@+id/casilla1"
+        app:layout_constraintTop_toTopOf="@+id/casilla1" />
+
+    <Button
+        android:id="@+id/casilla3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:onClick="dibujar"
+        app:layout_constraintStart_toEndOf="@+id/casilla2"
+        app:layout_constraintTop_toTopOf="@+id/casilla2" />
+
+    <Button
+        android:id="@+id/casilla4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:onClick="dibujar"
+        app:layout_constraintStart_toStartOf="@+id/casilla1"
+        app:layout_constraintTop_toBottomOf="@+id/casilla1" />
+
+    <Button
+        android:id="@+id/casilla5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="dibujar"
+        app:layout_constraintStart_toEndOf="@+id/casilla4"
+        app:layout_constraintTop_toBottomOf="@+id/casilla1" />
+
+    <Button
+        android:id="@+id/casilla6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:onClick="dibujar"
+        app:layout_constraintStart_toEndOf="@+id/casilla5"
+        app:layout_constraintTop_toTopOf="@+id/casilla5" />
+
+    <Button
+        android:id="@+id/casilla7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:onClick="dibujar"
+        app:layout_constraintStart_toStartOf="@+id/casilla4"
+        app:layout_constraintTop_toBottomOf="@+id/casilla4" />
+
+    <Button
+        android:id="@+id/casilla8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:onClick="dibujar"
+        app:layout_constraintStart_toEndOf="@+id/casilla7"
+        app:layout_constraintTop_toTopOf="@+id/casilla7" />
+
+    <Button
+        android:id="@+id/casilla9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:onClick="dibujar"
+        app:layout_constraintStart_toEndOf="@+id/casilla8"
+        app:layout_constraintTop_toTopOf="@+id/casilla8" />
+
+    <Button
+        android:id="@+id/reiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="reiniciar"
+        android:text="Jugar de Nuevo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/casilla8" />
+</android.support.constraint.ConstraintLayout>

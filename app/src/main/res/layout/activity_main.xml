@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="caleb.login.MainActivity">
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/usuario"
+        app:layout_constraintTop_toBottomOf="@+id/usuario" />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="157dp"
+        android:ems="10"
+        android:hint="usuario"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mensaje"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/textoTextView"
+        app:layout_constraintStart_toStartOf="@+id/usuario"
+        app:layout_constraintTop_toBottomOf="@+id/iniciarSesion" />
+
+    <Button
+        android:id="@+id/iniciarSesion"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/botonTexto"
+        app:layout_constraintStart_toStartOf="@+id/usuario"
+        app:layout_constraintTop_toBottomOf="@+id/usuario" />
+
+</android.support.constraint.ConstraintLayout>

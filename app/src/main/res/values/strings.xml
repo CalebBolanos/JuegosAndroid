@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="botonTexto">Iniciar Sesión</string>
+    <string name="textoTextView"> </string>
+    <string name="textoBoton1">1</string>
+    <string name="textoBoton2">2</string>
+    <string name="textoBoton3">3</string>
+    <string name="textoBoton4">4</string>
+    <string name="textoBoton5">5</string>
+    <string name="textoBoton6">6</string>
+    <string name="textoBoton7">7</string>
+    <string name="textoBoton8">8</string>
+    <string name="textoBoton9">9</string>
+    <string name="textoBoton0">0</string>
+    <string name="textoBotonPunto">.</string>
+    <string name="textoBotonIgual">=</string>
+    <string name="textoBotonMas">+</string>
+    <string name="textoBotonMenos">-</string>
+    <string name="textoBotonPor">x</string>
+    <string name="textoBotonEntre">/</string>
+    <string name="textoBotonLimpiar">C</string>
+    <string name="textoBotonRetroseso">Del</string>
+    <string name="calculadora">Calculadora</string>
+</resources>
